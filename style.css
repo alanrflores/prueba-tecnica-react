@@ -1,0 +1,19 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+.movies img {
+  border-radius: 8px;
+  margin-top: 10px;
+}
